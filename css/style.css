@@ -1177,6 +1177,15 @@ input::placeholder{
 
 }
 
+.modal-box-input:focus{
+
+   
+    border-color: #4d5ae5;
+
+
+}
+
+
 .modal-box-pictures{
 
     
@@ -1190,13 +1199,7 @@ input::placeholder{
 
 }
 
-.modal-box-input:focus{
 
-   
-    border-color: #4d5ae5;
-
-
-}
 
 
 .modal-box-pictures:focus{
@@ -1250,6 +1253,8 @@ input::placeholder{
 
 }
 
+
+
 .checkbox-container{
 
 
@@ -1294,6 +1299,9 @@ input::placeholder{
 
 
 }
+
+
+
 
 .radio-button:checked + .checkbox-label > .span-icon {
     background-color: #404BBF;
@@ -1346,7 +1354,7 @@ input::placeholder{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     margin: 0 auto;
-    
+
 }
 
 
