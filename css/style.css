@@ -1199,7 +1199,8 @@ input::placeholder{
 
 }
 
-.modal-box-input:focus .modal-box-pictures{
+
+.modal-box-pictures:focus{
 
    
     border-color: #4d5ae5;
@@ -1295,7 +1296,7 @@ input::placeholder{
 
 }
 
-.radio-button:checked .span-icon{
+.visually-hidden:checked{
 
 
     background-color: #404BBf;
