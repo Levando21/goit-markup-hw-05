@@ -642,7 +642,7 @@
         <button type = "button" class = "close-button">
 
            <svg claass = "close-button-picture" width = 8 height = 8>
-             <use href = "./images/icons.svg#icons-close"></use>
+             <use href = "./images/icons.svg#icon-close"></use>
            </svg>
 
         </button>
@@ -714,11 +714,11 @@
 
           </div>
 
-          <div class = "form-box-comment">
+          <div class = "form-box-modal">
               
-            <label for = "user-comment" class = "comment-text">
+            <label for = "user-comment" class = "modal-form-label">
               Comment
-              <textarea type ="text" name = "user-name"  placeholer = "Text input" id = "user-comment" class = "mytext">
+              <textarea type ="text" name = "user-name"   id = "user-comment" placeholer = "Text input" class = "second-text">
 
               </textarea>
     
@@ -728,18 +728,34 @@
 
           </div>
 
+          <div class = "checkbox-container">
+          <input id = "user-privacy" type = "checkbox" name = "user-privacy" value = "true" class = "radio-button visually-hidden"/>
+          <label for = "user-privacy" class = "checkbox-label">
+            
+            <span class = "span-icon">
+              <svg class ="picture-span" width = 10 height = 8>
+                <use href = "./images/icons.svg#icon-checkbox"></use>
+              </svg>
+            </span>
+
+            
+            I accept the terms and conditions of  
+           
+
+            <a href = "./index.html" class = "span-link">Privacy Policy</a>
+          </label>
+          </div>
+          
+          <div class = "modal-second-button">
+          <button type = "submit" class = "modal-button">Send</button>
+          </div>
+
         </form>
+
+        
           
       
 
-        <label for = "user-privacy" class = "checkbox-label">
-        <input id = "user-privacy" type = "checkbox" name = "user-privacy" value = "true" class = "radio-button"/>
-
-          I accept the terms and conditions of the <a href = "./index.html" class = "span-link"><span class = "span-text">Privacy Policy</span></a>
-
-        </label>
-        
-        <button type = "submit" class = "modal-button">Send</button>
 
 
       </div>
