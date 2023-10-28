@@ -931,7 +931,7 @@ button, select{
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 200% */
+    line-height: 1.5;
     letter-spacing: 0.48px;
     color: #ffffff; 
 
@@ -969,7 +969,7 @@ input::placeholder{
    border: 1px solid#212121;
    border-radius:4px;
 
-   font-family: Roboto;
+   font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size:16px;
    line-height: 1.5;
@@ -1181,9 +1181,13 @@ input::placeholder{
 
    
     border-color: #4d5ae5;
+    
 
 
 }
+
+
+
 
 
 .modal-box-pictures{
@@ -1199,16 +1203,19 @@ input::placeholder{
 
 }
 
-
-
-
-.modal-box-pictures:focus{
-
-   
-    border-color: #4d5ae5;
-
-
+.modal-box-input:focus .modal-box-pictures { 
+    fill: #4D5AE5;
 }
+
+
+.modal-box-input:focus .modal-box-pictures {
+    fill: none; 
+}
+
+
+
+
+
 
 
 
